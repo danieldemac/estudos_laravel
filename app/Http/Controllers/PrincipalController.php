@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class PrincipalController extends Controller
 {
     public function principal(){
-        echo "Oi oi oi oi";
+        return view('site.principal');
     }
 }
