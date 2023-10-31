@@ -26,7 +26,6 @@ return new class extends Migration
         Schema::table('fornecedores', function(Blueprint $table){
             $table->dropColumn('site');
 
-            
         });
     }
 };
