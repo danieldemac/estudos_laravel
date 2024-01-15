@@ -35,7 +35,7 @@ Estudos_Laravel/
 ├── package.json
 ├── phpunit.xml
 └── vite.config.js
-
+```
 ## Atualizações Recentes
 
 **Atualização Nova:** Descrição da atualização e mudanças realizadas.
