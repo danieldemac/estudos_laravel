@@ -21,13 +21,12 @@ class FornecedorSeeder extends Seeder
         $fornecedor->email = 'Fornecedor teste';
         $fornecedor->save();
 
-        $fornecedor = new Fornecedor();
-        $fornecedor->nome = 'Fornecedor teste2';
-        $fornecedor->site = 'Fornecedor teste2';
-        $fornecedor->uf = 'PE';
-        $fornecedor->email = 'Fornecedor teste2';
-        $fornecedor->save();
-
+        Fornecedor::create([
+            'nome' => 'Fornecedor 200',
+            'site' => 'fornecedor200.com.br',
+            'uf' => "MS",
+            'email' => 'contato@fornecedor200.com.br'
+        ]);
 
     }
 }
